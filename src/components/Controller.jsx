@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ControllerDetailModal from './ControllerDetailModal';
 
+
 const Controller = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handleModalOpen = () => {

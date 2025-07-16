@@ -1,4 +1,5 @@
 const BoardDetailModal = ({ item, onClose }) => {
+
   return (
     <div onClick={onClose} className="fixed inset-0 flex items-center justify-center bg-black/70 bg-opacity-50 z-50">
       <div onClick={(e) => e.stopPropagation()} className="bg-white rounded-lg shadow-lg p-6 w-[600px]">
